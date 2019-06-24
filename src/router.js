@@ -13,11 +13,11 @@ export default new Router({
       path: '/',
       name: 'Scores',
       component: Scores,
-    }
-    //{
-      //path: '/ping',
-      //name: 'Ping',
-      //component: Ping,
-    //},
+    },
+    {
+      path: '/ping',
+      name: 'Ping',
+      component: Ping,
+    },
   ],
 });
